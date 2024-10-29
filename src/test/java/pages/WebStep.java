@@ -3,7 +3,6 @@ package pages;
 import com.codeborne.selenide.SelenideElement;
 import com.codeborne.selenide.WebDriverRunner;
 import io.qameta.allure.Step;
-
 import static com.codeborne.selenide.Condition.cssValue;
 import static org.assertj.core.api.Assertions.assertThat;
 import static com.codeborne.selenide.Condition.text;
@@ -25,7 +24,7 @@ public class WebStep {
             servicesButton = $("#menu-button-\\:Rajkd9bqH1\\:"),
             projectsButton = $("[href = '/our-projects']"),
             workButton = $("#menu-button-\\:Rcjkd9bqH1\\:"),
-            radioButton = $("[href = '/radio']"),
+            radioButton = $(".chakra-link.css-1ykcjsw input[href = '/radio']"),
             applicationButton = $(".chakra-button.css-1xv700h"),
             textAbout = $(".chakra-stack.css-1thp0ii"),
             finTechButton =  $("[href = '/services/financial-services']"),
