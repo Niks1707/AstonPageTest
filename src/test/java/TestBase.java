@@ -55,24 +55,4 @@ public class TestBase {
             Selenide.closeWebDriver();
     }
 }
-//public class TestBase {
-//
-//    @BeforeAll
-//    static void setUp()  {
-//        Configuration.browserSize = "1920x1080";
-//        Configuration.pageLoadStrategy = "eager";
-//    }
-//
-//    @BeforeEach
-//    void openPage() {
-//        open("https://astondevs.ru/");
-//        SelenideElement confirmButton = $$(".chakra-button.css-6e5x8g").findBy(text("Подтверждаю"));
-//        confirmButton.shouldBe(Condition.visible, Duration.ofSeconds(10)).click();
-//        SelenideLogger.addListener("allure", new AllureSelenide());
-//    }
-//
-//    @AfterEach
-//    void  closeAll(){
-//        Selenide.closeWebDriver();
-//    }
-//}
+
