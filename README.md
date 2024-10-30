@@ -8,10 +8,10 @@
 
 * [Технологии и инструменты](#технологии-и-инструменты)
 * [Список проверок](#список-проверок)
-* [Запуск тестов - сборка в Jenkins](#img-height25-srcmedialogojenkinssvg-width25a-запуск-тестов---сборка-в-jenkins)
-* [Allure Report](#img-height25-srcmedialogoallure_reportsvg-width25a-a-nameallureaallure-report-a)
-* [Уведомление в Telegram о результатах тестов](#img-altallure-height25-srcmedialogotelegramsvg-width25a-уведомление-в-telegram-о-результатах-тестов)
-* [Видео прохождение тестов на Selenoid](#img-altselenoid-height25-srcmedialogoselenoidsvg-width25a-видео-прохождение-тестов-на-selenoid)
+* [Запуск тестов - сборка в Jenkins](#-запуск-тестов---сборка-в-jenkins)
+* [Allure Report](#--allure-report)
+* [Уведомление в Telegram о результатах тестов](#-уведомление-в-telegram-о-результатах-тестов)
+* [Видео прохождение тестов на Selenoid](#-видео-прохождение-тестов-на-selenoid)
 
 ## Технологии и инструменты:
 
