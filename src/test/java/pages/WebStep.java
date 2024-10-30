@@ -24,7 +24,7 @@ public class WebStep {
             servicesButton = $("#menu-button-\\:Rajkd9bqH1\\:"),
             projectsButton = $("[href = '/our-projects']"),
             workButton = $("#menu-button-\\:Rcjkd9bqH1\\:"),
-            radioButton = $(".chakra-link.css-1ykcjsw input[href = '/radio']"),
+            radioButton = $("#header nav.chakra-stack.css-1rd9ubv > div:nth-child(7) > a"),
             applicationButton = $(".chakra-button.css-1xv700h"),
             textAbout = $(".chakra-stack.css-1thp0ii"),
             finTechButton =  $("[href = '/services/financial-services']"),
