@@ -23,8 +23,7 @@ public class TestBase {
         Configuration.browserSize = System.getProperty("browserSize");
         Configuration.baseUrl = "https://astondevs.ru";
         Configuration.timeout = 10000;
-        //Configuration.remote = "https://" + System.getProperty("login") + "@" + System.getProperty("remote");
-        Configuration.remote = System.getProperty("remoteURL");
+        Configuration.remote = "https://" + System.getProperty("login") + "@" + System.getProperty("remote");
         Configuration.browser = System.getProperty("browserName","chrome");
         Configuration.browserSize = System.getProperty("browserSize");
         Configuration.browserVersion = System.getProperty("browserVersion");
