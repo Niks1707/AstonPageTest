@@ -20,15 +20,12 @@ public class TestBase {
     @BeforeAll
     static void setUp() {
 
-        Configuration.browserSize = System.getProperty("browserSize");
         Configuration.baseUrl = "https://astondevs.ru";
         Configuration.timeout = 10000;
         Configuration.remote = "https://" + System.getProperty("login") + "@selenoid.autotests.cloud/wd/hub";
         Configuration.browser = System.getProperty("browserName","chrome");
         Configuration.browserSize = System.getProperty("browserSize");
         Configuration.browserVersion = System.getProperty("browserVersion");
-
-        SelenideLogger.addListener("allure", new AllureSelenide());
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("selenoid:options", Map.<String, Object>of(
