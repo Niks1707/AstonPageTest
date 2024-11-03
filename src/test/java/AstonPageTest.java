@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import pages.*;
 
-@DisplayName("Тестирвоание сайта комапании Aston ")
+@DisplayName("Тестирование сайта компании Aston ")
 @Tag("Test")
 @Owner(value = "Genkel Veronika")
 public class AstonPageTest extends TestBase {
